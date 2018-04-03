@@ -71,7 +71,7 @@ function toggleBounce() {
 function getAPIdata() {
 
 	// get latest weather
-	fetch('http://api.openweathermap.org/data/2.5/forecast?q=the%20Hague,nl&appid=AIzaSyALW7hxJUHRKroACQeqXKVJHFUG6tfjQWk')
+	fetch('https://api.openweathermap.org/data/2.5/forecast?q=the%20Hague,nl&appid=c59084842aa9dfcb1463ec1a3d4b4c29')
 
 	// parse to JSON format
 	.then(function(response) {
@@ -153,4 +153,4 @@ function formTime(date) {
 }
 
 // init data stream
-getAPIdata();
+//getAPIdata();
