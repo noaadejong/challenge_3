@@ -1,0 +1,83 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    width: 100%;
+}
+div#map {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    color: #111;
+    box-shadow: 5px 5px 10px grey;
+}
+h1{
+    color: red;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: space;
+}
+
+
+
+
+
+
+#weather {
+	width: 100%;
+	padding: 4px;
+	overflow: auto;
+}
+
+#weather > .forecastMoment {
+	float: left;
+	width: 90px;
+	margin: 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	background-color: #F7FBFF;
+	border-radius: 6px;
+	color: #444;
+	font-size: 0.8em;
+    border: 1px solid black;
+}
+
+.temp {
+	font-weight: bold;
+	color: #0af;
+	font-size: 1.3em;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------- MEDIA -------------------------------------------- */
+
+@media only screen and (min-width: 700px) {
+    /* For tablets: */
+
+}
+@media only screen and (min-width: 1280px) {
+    /* For desktop: */
+
+}
