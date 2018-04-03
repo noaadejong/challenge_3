@@ -47,7 +47,7 @@ function initMap() {
         });
 
         var infoWindow = new google.maps.InfoWindow({
-            content:'<h3>Back on Earth?<br>Visit the happiest place on this planet!<br>Beware of the change of temperature, and dress accordingly.</h3>'
+            content:'<h3>Amsterdam schiphol</h3>'
         });
 
           marker.addListener('click', function(){
