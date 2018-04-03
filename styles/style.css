@@ -93,12 +93,12 @@ div.sign {
 @media only screen and (min-width: 700px) {
     /* For tablets: */
     h1 {
-        font-size: 1.1;
+        font-size: 1.1em;
     }
 }
 @media only screen and (min-width: 1280px) {
     /* For desktop: */
     h1 {
-        font-size: 1.5;
+        font-size: 1.5em;
     }
 }
