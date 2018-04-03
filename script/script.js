@@ -2,7 +2,7 @@
 function initMap() {
     var uluru = {lat: 52.310539, lng: 4.768274};
     var map = new google.maps.Map(document.getElementById('map'),{
-        zoom: 11,
+        zoom: 12,
         center: uluru,
         styles: myStyles
     });
@@ -47,7 +47,7 @@ function initMap() {
         });
 
         var infoWindow = new google.maps.InfoWindow({
-            content:'<h3>Amsterdam schiphol</h3>'
+            content:'<h3>Landing location</h3>'
         });
 
           marker.addListener('click', function(){
