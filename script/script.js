@@ -107,7 +107,7 @@ function onAPISucces(response) {
 		var date = formDate(dateTime);
 		var time = formTime(dateTime);
 		var temp = Math.floor(weatherList[i].main.temp - 273.15);
-		var iconUrl = 'http://openweathermap.org/img/w/'+weatherList[i].weather[0].icon+'.png';
+		var iconUrl = 'https://openweathermap.org/img/w/'+weatherList[i].weather[0].icon+'.png';
 
 		forecastMessage =  '<div class="forecastMoment">';
 		forecastMessage +=   '<div class="date"> '+date+' </div>';
