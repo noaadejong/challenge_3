@@ -45,7 +45,24 @@ function initMap() {
             map: map
           });
         });
+
+        var infoWindow = new google.maps.InfoWindow({
+            content:'<h3>Back on Earth?<br>Visit the happiest place on this planet!<br>Beware of the change of temperature, and dress accordingly.</h3>'
+          });
+
+          marker.addListener('click', function(){
+            infoWindow.open(map, marker);
+          });
 }
+
+//BOUNCE MARKER
+function toggleBounce() {
+       if (marker.getAnimation() !== null) {
+         marker.setAnimation(null);
+       } else {
+         marker.setAnimation(google.maps.Animation.BOUNCE);
+       }
+     }
 
 
 /**
