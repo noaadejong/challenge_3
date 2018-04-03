@@ -38,7 +38,9 @@ img#logo-spacex {
     left: 20px;
     top: 5px;
 }
-
+div.all-stars {
+    width: 100%;
+}
 
 
 
