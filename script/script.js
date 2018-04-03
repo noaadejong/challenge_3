@@ -37,7 +37,7 @@ function initMap() {
           },
         ];
 
-		  // Create markers.
+		// Create markers.
         features.forEach(function(feature) {
           var marker = new google.maps.Marker({
             position: feature.position,
@@ -48,10 +48,10 @@ function initMap() {
 
         var infoWindow = new google.maps.InfoWindow({
             content:'<h3>Back on Earth?<br>Visit the happiest place on this planet!<br>Beware of the change of temperature, and dress accordingly.</h3>'
-          });
+        });
 
           marker.addListener('click', function(){
-            infoWindow.open(map, marker);
+            InfoWindow.open(map, marker);
           });
 }
 
