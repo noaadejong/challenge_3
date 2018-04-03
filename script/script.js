@@ -54,7 +54,7 @@ function initMap() {
 function getAPIdata() {
 
 	// get latest weather
-	fetch('http://api.openweathermap.org/data/2.5/forecast?q=the%20Hague,nl&appid=b0c8dafa512a0134e90df6ece3c2b7a2')
+	fetch('http://api.openweathermap.org/data/2.5/forecast?q=the%20Hague,nl&appid=AIzaSyALW7hxJUHRKroACQeqXKVJHFUG6tfjQWk')
 
 	// parse to JSON format
 	.then(function(response) {
