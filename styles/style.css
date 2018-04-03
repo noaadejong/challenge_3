@@ -42,7 +42,11 @@ div.all-stars {
     width: 100%;
 }
 img#googlemarker {
-    width: 3%;
+    width: 2%;
+}
+div.sign {
+    width: 100%;
+    color: white;
 }
 
 
