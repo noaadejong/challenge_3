@@ -22,8 +22,8 @@ html, body {
 }
 div#map {
     margin: 0 auto;
-    width: 80vw;
-    height: 50vh;
+    width: 90vw;
+    height: 60vh;
     color: #111;
     z-index: 200;
 }
@@ -103,6 +103,10 @@ div.sign p {
     /* For tablets: */
     h1 {
         font-size: 1.1em;
+    }
+    div#map {
+        width: 80vw;
+        height: 50vh;
     }
 }
 @media only screen and (min-width: 1280px) {
