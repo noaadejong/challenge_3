@@ -57,9 +57,15 @@ div.sign img {
     width: 70%;
 }
 div.sign p {
-    width: 50%;
+    width: 60%;
     float: left;
+    font-size: 0.6em;
 }
+
+
+
+
+
 
 
 #weather {
@@ -108,10 +114,16 @@ div.sign p {
         width: 80vw;
         height: 50vh;
     }
+    div.sign p {
+        font-size: 0.9em;
+    }
 }
 @media only screen and (min-width: 1280px) {
     /* For desktop: */
     h1 {
         font-size: 1.5em;
+    }
+    div.sign p {
+        font-size: 1.1em;
     }
 }
