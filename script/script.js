@@ -153,4 +153,4 @@ function formTime(date) {
 }
 
 // init data stream
-//getAPIdata();
+getAPIdata();
